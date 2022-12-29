@@ -1,0 +1,81 @@
+ibsen
+ibsen
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+/home/alumno20/Lab7/singularity
+/home/alumno20/Lab7/singularity
+total 467668
+-rwxrwxr-x. 1 alumno20 alumno20       691 dic 29 16:58 manejando_singulariy.sh
+-rwxrwxr-x. 1 alumno20 alumno20 478883840 dic 29 16:17 my-python.sif
+-rw-rw-r--. 1 alumno20 alumno20       763 dic 29 17:02 output_manejando_singularity.txt
+-rwxrwxr-x. 1 alumno20 alumno20 478883840 dic 29 16:17 my-python.sif
+Python 3.7.7 :: Intel(R) Corporation
+Python 3.7.16
+[22;0t]0;IPython: Lab7/singularityStart
+Number of generated k-mers: 268435456
+
+741 ms ± 566 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+[22;0t]0;IPython: Lab7/singularityStart
+Number of generated k-mers: 268435456
+
+746 ms ± 3.06 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+[22;0t]0;IPython: Lab7/singularity[0;31m---------------------------------------------------------------------------[0m
+[0;31mIndexError[0m                                Traceback (most recent call last)
+[0;32m~/Lab7/source/pi-solution.ipynb[0m in [0;36m<module>[0;34m[0m
+[1;32m     15[0m [0;34m[0m[0m
+[1;32m     16[0m [0;31m#num_trials = 10**6[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 17[0;31m [0mnum_trials[0m [0;34m=[0m [0mint[0m[0;34m([0m[0msys[0m[0;34m.[0m[0margv[0m[0;34m[[0m[0;36m1[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     18[0m [0;34m[0m[0m
+[1;32m     19[0m [0mpi[0m [0;34m=[0m [0mcalc_pi[0m[0;34m([0m[0mnum_trials[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mIndexError[0m: list index out of range
+[22;0t]0;IPython: Lab7/singularityStart
+Number of generated k-mers: 268435456
+
+752 ms ± 3.67 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+[22;0t]0;IPython: Lab7/singularityStart
+Number of generated k-mers: 268435456
+
+761 ms ± 11.5 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+[22;0t]0;IPython: Lab7/singularity[0;31m---------------------------------------------------------------------------[0m
+[0;31mIndexError[0m                                Traceback (most recent call last)
+[0;32m/home/pi-solution.ipynb[0m in [0;36m<module>[0;34m[0m
+[1;32m     15[0m [0;34m[0m[0m
+[1;32m     16[0m [0;31m#num_trials = 10**6[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 17[0;31m [0mnum_trials[0m [0;34m=[0m [0mint[0m[0;34m([0m[0msys[0m[0;34m.[0m[0margv[0m[0;34m[[0m[0;36m1[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     18[0m [0;34m[0m[0m
+[1;32m     19[0m [0mpi[0m [0;34m=[0m [0mcalc_pi[0m[0;34m([0m[0mnum_trials[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mIndexError[0m: list index out of range
